@@ -1,0 +1,46 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+.fuenteVerde{
+    color: #84B026 !important;
+}
+.botonVerde{
+    background-color: #84B026 !important;
+}
+
+.colorFondo{
+    background-color: #353A40;
+}
+.navGris {
+    background-color: #353A40 !important;
+    
+}
+.navVerde {
+    background-color: #024959 !important;
+}
+nav ul li a {
+
+    color: grey !important;
+    
+}  
+nav ul li a:hover {
+
+    color: white !important;
+    
+}  
+
+nav a {
+    color:white !important;
+}
+
+footer nav ul li a {
+
+    color: white !important;
+    
+} 
+.invalido{
+    display: none;
+}
