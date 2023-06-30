@@ -45,7 +45,7 @@ btn_resumen.addEventListener("click", validate_email);
 
 // Inicializamos las variables
 
-let valorGeneral = 0;
+let valorGeneral = 200;
 let cantidadEntradas = document.getElementById("cantidad_entradas");
 let selectDescuento = document.getElementById("select_descuento");
 
