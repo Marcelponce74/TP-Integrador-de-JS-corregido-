@@ -45,7 +45,7 @@ btn_resumen.addEventListener("click", validate_email);
 
 // Inicializamos las variables
 
-let valorGeneral = 200;
+let valorGeneral = 0;
 let cantidadEntradas = document.getElementById("cantidad_entradas");
 let selectDescuento = document.getElementById("select_descuento");
 
@@ -54,19 +54,19 @@ let selectDescuento = document.getElementById("select_descuento");
 function calcular() {
     switch (selectDescuento.value) {
         case "1":
-            valorGeneral = valorGeneral * 0.2 * cantidadEntradas.value;
+            valorGeneral = 200 * 0.2 * cantidadEntradas.value;
             document.getElementById('total_a_pagar').innerHTML = valorGeneral;
             break;
         case "2":
-            valorGeneral = valorGeneral * 0.5 * cantidadEntradas.value;
+            valorGeneral = 200 * 0.5 * cantidadEntradas.value;
             document.getElementById('total_a_pagar').innerHTML = valorGeneral;
             break;
         case "3":
-            valorGeneral = valorGeneral * 0.85 * cantidadEntradas.value;
+            valorGeneral = 200 * 0.85 * cantidadEntradas.value;
             document.getElementById('total_a_pagar').innerHTML = valorGeneral;
             break;
         case "4":
-            valorGeneral = valorGeneral * cantidadEntradas.value;
+            valorGeneral = 200 * cantidadEntradas.value;
             document.getElementById('total_a_pagar').innerHTML = valorGeneral;
             break;
         default:
@@ -84,7 +84,7 @@ function borrar_total() {
     document.getElementById("error_last_name").innerHTML = ""
     document.getElementById("error_email").innerHTML = ""
     document.getElementById('total_a_pagar').innerHTML = "";
-    valorGeneral = 0;
+   
 
 }
 
