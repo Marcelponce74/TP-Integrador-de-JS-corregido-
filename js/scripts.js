@@ -54,7 +54,7 @@ let selectDescuento = document.getElementById("select_descuento");
 function calcular() {
     switch (selectDescuento.value) {
         case "1":
-            valorGeneral = valorGeneral * 0,2 * cantidadEntradas.value;
+            valorGeneral = 200 * 0,2 * cantidadEntradas.value;
             document.getElementById('total_a_pagar').innerHTML = valorGeneral;
             break;
         case "2":
